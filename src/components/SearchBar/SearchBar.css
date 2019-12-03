@@ -5,7 +5,7 @@
     background-image: url('./background_search_desktop.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 25rem;
+    height: 45rem;
   }
   
   .SearchBar-sort-options ul {
@@ -23,7 +23,7 @@
     line-height: 1.13;
     text-align: center;
     font-weight: 600;
-    font-size: .83rem;
+    font-size: 1.1rem;
     transition: color .25s;
   }
   
@@ -44,8 +44,8 @@
   }
   
   .SearchBar-fields input {
-    width: 21rem;
-    padding: .66rem 1rem;
+    width: 29rem;
+    padding: 1.1rem 1rem;
     margin-right: 2.22rem;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -68,13 +68,14 @@
     color: #ffffff;
     font-weight: 600;
     transition: background-color .5s;
+    font-size: 15px;
   }
   
 
   
   @media only screen and (max-width: 560px) {
     .SearchBar {
-      background-image: url('./background_search_mobile.jpg');
+      background-image: url('./background_search_desktop.jpg');
     }
   
     .SearchBar-sort-options ul {

@@ -12,7 +12,7 @@ class SearchBar extends React.Component {
     constructor(props) {
         super(props);
         this.state ={
-            term: '',
+            term: 'matcha',
             location: '',
             sortBy: 'best_match'
         }; 
@@ -59,8 +59,7 @@ class SearchBar extends React.Component {
                     </ul>
                 </div>
                 <div className="SearchBar-fields">
-                    <input placeholder="Search Businesses" onChange={this.handleTermChange}/>
-                    <input placeholder="Where?" onChange={this.handleLocationChange}/>
+                    <input placeholder="Near?" onChange={this.handleLocationChange}/>
                 </div>
                 <div className="SearchBar-submit">
                     <button disabled={(!this.state.location) || (!this.state.term)} onClick={this.handleSearch}>Let's Go</button>
